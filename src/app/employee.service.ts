@@ -11,9 +11,9 @@ export class EmployeeService {
   getURL=""
   validateURL=""
   constructor(private httpClient:HttpClient) { 
-    this.saveURL="http://localhost:5000/saveEmployee";
-    this.getURL="http://localhost:5000/allEmployees";
-    this.validateURL="http://localhost:5000/validateEmployee";
+    this.saveURL="http://172.31.12.134:5000/saveEmployee";
+    this.getURL="http://172.31.12.134:5000/allEmployees";
+    this.validateURL="http://172.31.12.134:5000/validateEmployee";
   }
   addUsers(employeeData:any){
     console.log(employeeData);
